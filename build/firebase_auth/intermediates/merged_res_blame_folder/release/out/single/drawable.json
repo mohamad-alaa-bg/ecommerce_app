@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "D:\\AndroidStudioProjects\\2021\\ecommerce_app\\build\\firebase_auth\\intermediates\\res\\merged\\release\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\Mhd Alaa Bg\\.gradle\\caches\\transforms-2\\files-2.1\\1c5865eddf24f64be9c18999845b1304\\core-1.1.0\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\2021\\ecommerce_app\\build\\firebase_auth\\intermediates\\res\\merged\\release\\drawable\\common_google_signin_btn_text_light.xml",
+        "source": "C:\\Users\\Mhd Alaa Bg\\.gradle\\caches\\transforms-2\\files-2.1\\47e543302c7b4d7a3e43f843b352991a\\jetified-play-services-base-17.1.0\\res\\drawable\\common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\2021\\ecommerce_app\\build\\firebase_auth\\intermediates\\res\\merged\\release\\drawable\\common_google_signin_btn_icon_disabled.xml",
+        "source": "C:\\Users\\Mhd Alaa Bg\\.gradle\\caches\\transforms-2\\files-2.1\\47e543302c7b4d7a3e43f843b352991a\\jetified-play-services-base-17.1.0\\res\\drawable\\common_google_signin_btn_icon_disabled.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\2021\\ecommerce_app\\build\\firebase_auth\\intermediates\\res\\merged\\release\\drawable\\common_google_signin_btn_text_disabled.xml",
+        "source": "C:\\Users\\Mhd Alaa Bg\\.gradle\\caches\\transforms-2\\files-2.1\\47e543302c7b4d7a3e43f843b352991a\\jetified-play-services-base-17.1.0\\res\\drawable\\common_google_signin_btn_text_disabled.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\2021\\ecommerce_app\\build\\firebase_auth\\intermediates\\res\\merged\\release\\drawable\\common_google_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\Mhd Alaa Bg\\.gradle\\caches\\transforms-2\\files-2.1\\47e543302c7b4d7a3e43f843b352991a\\jetified-play-services-base-17.1.0\\res\\drawable\\common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\2021\\ecommerce_app\\build\\firebase_auth\\intermediates\\res\\merged\\release\\drawable\\common_google_signin_btn_icon_dark_focused.xml",
+        "source": "C:\\Users\\Mhd Alaa Bg\\.gradle\\caches\\transforms-2\\files-2.1\\47e543302c7b4d7a3e43f843b352991a\\jetified-play-services-base-17.1.0\\res\\drawable\\common_google_signin_btn_icon_dark_focused.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\2021\\ecommerce_app\\build\\firebase_auth\\intermediates\\res\\merged\\release\\drawable\\common_google_signin_btn_icon_light_normal.xml",
+        "source": "C:\\Users\\Mhd Alaa Bg\\.gradle\\caches\\transforms-2\\files-2.1\\47e543302c7b4d7a3e43f843b352991a\\jetified-play-services-base-17.1.0\\res\\drawable\\common_google_signin_btn_icon_light_normal.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\2021\\ecommerce_app\\build\\firebase_auth\\intermediates\\res\\merged\\release\\drawable\\common_google_signin_btn_icon_dark_normal.xml",
+        "source": "C:\\Users\\Mhd Alaa Bg\\.gradle\\caches\\transforms-2\\files-2.1\\47e543302c7b4d7a3e43f843b352991a\\jetified-play-services-base-17.1.0\\res\\drawable\\common_google_signin_btn_icon_dark_normal.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\2021\\ecommerce_app\\build\\firebase_auth\\intermediates\\res\\merged\\release\\drawable\\notification_icon_background.xml",
+        "source": "C:\\Users\\Mhd Alaa Bg\\.gradle\\caches\\transforms-2\\files-2.1\\1c5865eddf24f64be9c18999845b1304\\core-1.1.0\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\2021\\ecommerce_app\\build\\firebase_auth\\intermediates\\res\\merged\\release\\drawable\\common_google_signin_btn_icon_dark.xml",
+        "source": "C:\\Users\\Mhd Alaa Bg\\.gradle\\caches\\transforms-2\\files-2.1\\47e543302c7b4d7a3e43f843b352991a\\jetified-play-services-base-17.1.0\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\2021\\ecommerce_app\\build\\firebase_auth\\intermediates\\res\\merged\\release\\drawable\\notification_tile_bg.xml",
+        "source": "C:\\Users\\Mhd Alaa Bg\\.gradle\\caches\\transforms-2\\files-2.1\\1c5865eddf24f64be9c18999845b1304\\core-1.1.0\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\2021\\ecommerce_app\\build\\firebase_auth\\intermediates\\res\\merged\\release\\drawable\\common_google_signin_btn_icon_light.xml",
+        "source": "C:\\Users\\Mhd Alaa Bg\\.gradle\\caches\\transforms-2\\files-2.1\\47e543302c7b4d7a3e43f843b352991a\\jetified-play-services-base-17.1.0\\res\\drawable\\common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\2021\\ecommerce_app\\build\\firebase_auth\\intermediates\\res\\merged\\release\\drawable\\common_google_signin_btn_text_light_focused.xml",
+        "source": "C:\\Users\\Mhd Alaa Bg\\.gradle\\caches\\transforms-2\\files-2.1\\47e543302c7b4d7a3e43f843b352991a\\jetified-play-services-base-17.1.0\\res\\drawable\\common_google_signin_btn_text_light_focused.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\2021\\ecommerce_app\\build\\firebase_auth\\intermediates\\res\\merged\\release\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\Mhd Alaa Bg\\.gradle\\caches\\transforms-2\\files-2.1\\1c5865eddf24f64be9c18999845b1304\\core-1.1.0\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\2021\\ecommerce_app\\build\\firebase_auth\\intermediates\\res\\merged\\release\\drawable\\common_google_signin_btn_text_dark_focused.xml",
+        "source": "C:\\Users\\Mhd Alaa Bg\\.gradle\\caches\\transforms-2\\files-2.1\\47e543302c7b4d7a3e43f843b352991a\\jetified-play-services-base-17.1.0\\res\\drawable\\common_google_signin_btn_text_dark_focused.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\2021\\ecommerce_app\\build\\firebase_auth\\intermediates\\res\\merged\\release\\drawable\\common_google_signin_btn_text_light_normal.xml",
+        "source": "C:\\Users\\Mhd Alaa Bg\\.gradle\\caches\\transforms-2\\files-2.1\\47e543302c7b4d7a3e43f843b352991a\\jetified-play-services-base-17.1.0\\res\\drawable\\common_google_signin_btn_text_light_normal.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\2021\\ecommerce_app\\build\\firebase_auth\\intermediates\\res\\merged\\release\\drawable\\common_google_signin_btn_text_dark_normal.xml",
+        "source": "C:\\Users\\Mhd Alaa Bg\\.gradle\\caches\\transforms-2\\files-2.1\\47e543302c7b4d7a3e43f843b352991a\\jetified-play-services-base-17.1.0\\res\\drawable\\common_google_signin_btn_text_dark_normal.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\2021\\ecommerce_app\\build\\firebase_auth\\intermediates\\res\\merged\\release\\drawable\\common_google_signin_btn_icon_light_focused.xml",
+        "source": "C:\\Users\\Mhd Alaa Bg\\.gradle\\caches\\transforms-2\\files-2.1\\47e543302c7b4d7a3e43f843b352991a\\jetified-play-services-base-17.1.0\\res\\drawable\\common_google_signin_btn_icon_light_focused.xml"
+    }
+]

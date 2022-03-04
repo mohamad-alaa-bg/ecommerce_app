@@ -1,0 +1,365 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.mhdalaabg.ecommerce_app"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="30" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->D:\AndroidStudioProjects\2021\ecommerce_app\android\app\src\main\AndroidManifest.xml:5:5-83
+14-->D:\AndroidStudioProjects\2021\ecommerce_app\android\app\src\main\AndroidManifest.xml:5:22-64
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Mhd Alaa Bg\.gradle\caches\transforms-2\files-2.1\3d589c9a3a42120be4875d6c7933e94b\jetified-firebase-auth-21.0.1\AndroidManifest.xml:24:5-79
+15-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Mhd Alaa Bg\.gradle\caches\transforms-2\files-2.1\3d589c9a3a42120be4875d6c7933e94b\jetified-firebase-auth-21.0.1\AndroidManifest.xml:24:22-76
+16
+17    <application
+17-->D:\AndroidStudioProjects\2021\ecommerce_app\android\app\src\main\AndroidManifest.xml:6:5-62:19
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.1.0] C:\Users\Mhd Alaa Bg\.gradle\caches\transforms-2\files-2.1\1c5865eddf24f64be9c18999845b1304\core-1.1.0\AndroidManifest.xml:24:18-86
+19        android:debuggable="true"
+20        android:icon="@mipmap/ic_launcher"
+20-->D:\AndroidStudioProjects\2021\ecommerce_app\android\app\src\main\AndroidManifest.xml:7:9-43
+21        android:label="ecommerce_app"
+21-->D:\AndroidStudioProjects\2021\ecommerce_app\android\app\src\main\AndroidManifest.xml:8:9-38
+22        android:supportsRtl="true" >
+22-->[com.facebook.android:facebook-login:5.5.1] C:\Users\Mhd Alaa Bg\.gradle\caches\transforms-2\files-2.1\2e718edf39c11a5ef32af82997dfa76a\jetified-facebook-login-5.5.1\AndroidManifest.xml:28:18-44
+23        <activity
+23-->D:\AndroidStudioProjects\2021\ecommerce_app\android\app\src\main\AndroidManifest.xml:9:9-35:20
+24            android:name="com.mhdalaabg.ecommerce_app.MainActivity"
+24-->D:\AndroidStudioProjects\2021\ecommerce_app\android\app\src\main\AndroidManifest.xml:10:13-41
+25            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+25-->D:\AndroidStudioProjects\2021\ecommerce_app\android\app\src\main\AndroidManifest.xml:11:13-163
+26            android:hardwareAccelerated="true"
+26-->D:\AndroidStudioProjects\2021\ecommerce_app\android\app\src\main\AndroidManifest.xml:12:13-47
+27            android:launchMode="singleTop"
+27-->D:\AndroidStudioProjects\2021\ecommerce_app\android\app\src\main\AndroidManifest.xml:13:13-43
+28            android:theme="@style/LaunchTheme"
+28-->D:\AndroidStudioProjects\2021\ecommerce_app\android\app\src\main\AndroidManifest.xml:14:13-47
+29            android:windowSoftInputMode="adjustResize" >
+29-->D:\AndroidStudioProjects\2021\ecommerce_app\android\app\src\main\AndroidManifest.xml:15:13-55
+30
+31            <!--
+32                 Specifies an Android theme to apply to this Activity as soon as
+33                 the Android process has started. This theme is visible to the user
+34                 while the Flutter UI initializes. After that, this theme continues
+35                 to determine the Window background behind the Flutter UI.
+36            -->
+37            <meta-data
+37-->D:\AndroidStudioProjects\2021\ecommerce_app\android\app\src\main\AndroidManifest.xml:20:13-22:57
+38                android:name="io.flutter.embedding.android.NormalTheme"
+38-->D:\AndroidStudioProjects\2021\ecommerce_app\android\app\src\main\AndroidManifest.xml:21:17-72
+39                android:resource="@style/NormalTheme" />
+39-->D:\AndroidStudioProjects\2021\ecommerce_app\android\app\src\main\AndroidManifest.xml:22:17-54
+40            <!--
+41                 Displays an Android View that continues showing the launch screen
+42                 Drawable until Flutter paints its first frame, then this splash
+43                 screen fades out. A splash screen is useful to avoid any visual
+44                 gap between the end of Android's launch screen and the painting of
+45                 Flutter's first frame.
+46            -->
+47            <meta-data
+47-->D:\AndroidStudioProjects\2021\ecommerce_app\android\app\src\main\AndroidManifest.xml:28:13-30:66
+48                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+48-->D:\AndroidStudioProjects\2021\ecommerce_app\android\app\src\main\AndroidManifest.xml:29:17-81
+49                android:resource="@drawable/launch_background" />
+49-->D:\AndroidStudioProjects\2021\ecommerce_app\android\app\src\main\AndroidManifest.xml:30:17-63
+50
+51            <intent-filter>
+51-->D:\AndroidStudioProjects\2021\ecommerce_app\android\app\src\main\AndroidManifest.xml:31:13-34:29
+52                <action android:name="android.intent.action.MAIN" />
+52-->D:\AndroidStudioProjects\2021\ecommerce_app\android\app\src\main\AndroidManifest.xml:32:17-69
+52-->D:\AndroidStudioProjects\2021\ecommerce_app\android\app\src\main\AndroidManifest.xml:32:25-66
+53
+54                <category android:name="android.intent.category.LAUNCHER" />
+54-->D:\AndroidStudioProjects\2021\ecommerce_app\android\app\src\main\AndroidManifest.xml:33:17-77
+54-->D:\AndroidStudioProjects\2021\ecommerce_app\android\app\src\main\AndroidManifest.xml:33:27-74
+55            </intent-filter>
+56        </activity>
+57        <!--
+58             Don't delete the meta-data below.
+59             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+60        -->
+61        <meta-data
+61-->D:\AndroidStudioProjects\2021\ecommerce_app\android\app\src\main\AndroidManifest.xml:38:9-40:33
+62            android:name="flutterEmbedding"
+62-->D:\AndroidStudioProjects\2021\ecommerce_app\android\app\src\main\AndroidManifest.xml:39:13-44
+63            android:value="2" />
+63-->D:\AndroidStudioProjects\2021\ecommerce_app\android\app\src\main\AndroidManifest.xml:40:13-30
+64        <meta-data
+64-->D:\AndroidStudioProjects\2021\ecommerce_app\android\app\src\main\AndroidManifest.xml:41:9-43:55
+65            android:name="com.facebook.sdk.ApplicationId"
+65-->D:\AndroidStudioProjects\2021\ecommerce_app\android\app\src\main\AndroidManifest.xml:42:13-58
+66            android:value="@string/facebook_app_id" />
+66-->D:\AndroidStudioProjects\2021\ecommerce_app\android\app\src\main\AndroidManifest.xml:43:13-52
+67
+68        <activity
+68-->D:\AndroidStudioProjects\2021\ecommerce_app\android\app\src\main\AndroidManifest.xml:45:9-48:48
+69            android:name="com.facebook.FacebookActivity"
+69-->D:\AndroidStudioProjects\2021\ecommerce_app\android\app\src\main\AndroidManifest.xml:46:13-57
+70            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+70-->D:\AndroidStudioProjects\2021\ecommerce_app\android\app\src\main\AndroidManifest.xml:47:13-96
+71            android:label="@string/app_name"
+71-->D:\AndroidStudioProjects\2021\ecommerce_app\android\app\src\main\AndroidManifest.xml:48:13-45
+72            android:theme="@style/com_facebook_activity_theme" />
+72-->[com.facebook.android:facebook-common:5.5.1] C:\Users\Mhd Alaa Bg\.gradle\caches\transforms-2\files-2.1\19b1708d3c89b9c822bc62d20c2bf546\jetified-facebook-common-5.5.1\AndroidManifest.xml:32:13-63
+73        <activity
+73-->D:\AndroidStudioProjects\2021\ecommerce_app\android\app\src\main\AndroidManifest.xml:49:9-60:20
+74            android:name="com.facebook.CustomTabActivity"
+74-->D:\AndroidStudioProjects\2021\ecommerce_app\android\app\src\main\AndroidManifest.xml:50:13-58
+75            android:exported="true" >
+75-->D:\AndroidStudioProjects\2021\ecommerce_app\android\app\src\main\AndroidManifest.xml:51:13-36
+76            <intent-filter>
+76-->D:\AndroidStudioProjects\2021\ecommerce_app\android\app\src\main\AndroidManifest.xml:52:13-59:29
+77                <action android:name="android.intent.action.VIEW" />
+77-->D:\AndroidStudioProjects\2021\ecommerce_app\android\app\src\main\AndroidManifest.xml:53:17-69
+77-->D:\AndroidStudioProjects\2021\ecommerce_app\android\app\src\main\AndroidManifest.xml:53:25-66
+78
+79                <category android:name="android.intent.category.DEFAULT" />
+79-->D:\AndroidStudioProjects\2021\ecommerce_app\android\app\src\main\AndroidManifest.xml:55:17-76
+79-->D:\AndroidStudioProjects\2021\ecommerce_app\android\app\src\main\AndroidManifest.xml:55:27-73
+80                <category android:name="android.intent.category.BROWSABLE" />
+80-->D:\AndroidStudioProjects\2021\ecommerce_app\android\app\src\main\AndroidManifest.xml:56:17-78
+80-->D:\AndroidStudioProjects\2021\ecommerce_app\android\app\src\main\AndroidManifest.xml:56:27-75
+81
+82                <data android:scheme="@string/fb_login_protocol_scheme" />
+82-->D:\AndroidStudioProjects\2021\ecommerce_app\android\app\src\main\AndroidManifest.xml:58:17-75
+82-->D:\AndroidStudioProjects\2021\ecommerce_app\android\app\src\main\AndroidManifest.xml:58:23-72
+83            </intent-filter>
+84        </activity>
+85
+86        <service
+86-->[:firebase_auth] D:\AndroidStudioProjects\2021\ecommerce_app\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:8:9-12:19
+87            android:name="com.google.firebase.components.ComponentDiscoveryService"
+87-->[:firebase_auth] D:\AndroidStudioProjects\2021\ecommerce_app\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:8:18-89
+88            android:directBootAware="true"
+88-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Mhd Alaa Bg\.gradle\caches\transforms-2\files-2.1\6c7c33deed907b06309d47ff640a84a7\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+89            android:exported="false" >
+89-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Mhd Alaa Bg\.gradle\caches\transforms-2\files-2.1\3d589c9a3a42120be4875d6c7933e94b\jetified-firebase-auth-21.0.1\AndroidManifest.xml:76:13-37
+90            <meta-data
+90-->[:firebase_auth] D:\AndroidStudioProjects\2021\ecommerce_app\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-11:85
+91                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+91-->[:firebase_auth] D:\AndroidStudioProjects\2021\ecommerce_app\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:10:17-124
+92                android:value="com.google.firebase.components.ComponentRegistrar" />
+92-->[:firebase_auth] D:\AndroidStudioProjects\2021\ecommerce_app\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:11:17-82
+93            <meta-data
+93-->[:cloud_firestore] D:\AndroidStudioProjects\2021\ecommerce_app\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-11:85
+94                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+94-->[:cloud_firestore] D:\AndroidStudioProjects\2021\ecommerce_app\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:10:17-134
+95                android:value="com.google.firebase.components.ComponentRegistrar" />
+95-->[:cloud_firestore] D:\AndroidStudioProjects\2021\ecommerce_app\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:11:17-82
+96            <meta-data
+96-->[:firebase_core] D:\AndroidStudioProjects\2021\ecommerce_app\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-11:85
+97                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+97-->[:firebase_core] D:\AndroidStudioProjects\2021\ecommerce_app\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:10:17-124
+98                android:value="com.google.firebase.components.ComponentRegistrar" />
+98-->[:firebase_core] D:\AndroidStudioProjects\2021\ecommerce_app\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:11:17-82
+99            <meta-data
+99-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Mhd Alaa Bg\.gradle\caches\transforms-2\files-2.1\3d589c9a3a42120be4875d6c7933e94b\jetified-firebase-auth-21.0.1\AndroidManifest.xml:77:13-79:85
+100                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+100-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Mhd Alaa Bg\.gradle\caches\transforms-2\files-2.1\3d589c9a3a42120be4875d6c7933e94b\jetified-firebase-auth-21.0.1\AndroidManifest.xml:78:17-109
+101                android:value="com.google.firebase.components.ComponentRegistrar" />
+101-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Mhd Alaa Bg\.gradle\caches\transforms-2\files-2.1\3d589c9a3a42120be4875d6c7933e94b\jetified-firebase-auth-21.0.1\AndroidManifest.xml:79:17-82
+102            <meta-data
+102-->[com.google.firebase:firebase-firestore:23.0.0] C:\Users\Mhd Alaa Bg\.gradle\caches\transforms-2\files-2.1\7597553cce39d79a4f79e1cf8e95db89\jetified-firebase-firestore-23.0.0\AndroidManifest.xml:20:13-22:85
+103                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+103-->[com.google.firebase:firebase-firestore:23.0.0] C:\Users\Mhd Alaa Bg\.gradle\caches\transforms-2\files-2.1\7597553cce39d79a4f79e1cf8e95db89\jetified-firebase-firestore-23.0.0\AndroidManifest.xml:21:17-111
+104                android:value="com.google.firebase.components.ComponentRegistrar" />
+104-->[com.google.firebase:firebase-firestore:23.0.0] C:\Users\Mhd Alaa Bg\.gradle\caches\transforms-2\files-2.1\7597553cce39d79a4f79e1cf8e95db89\jetified-firebase-firestore-23.0.0\AndroidManifest.xml:22:17-82
+105        </service>
+106
+107        <activity
+107-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Mhd Alaa Bg\.gradle\caches\transforms-2\files-2.1\3d589c9a3a42120be4875d6c7933e94b\jetified-firebase-auth-21.0.1\AndroidManifest.xml:27:9-44:20
+108            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+108-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Mhd Alaa Bg\.gradle\caches\transforms-2\files-2.1\3d589c9a3a42120be4875d6c7933e94b\jetified-firebase-auth-21.0.1\AndroidManifest.xml:28:13-80
+109            android:excludeFromRecents="true"
+109-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Mhd Alaa Bg\.gradle\caches\transforms-2\files-2.1\3d589c9a3a42120be4875d6c7933e94b\jetified-firebase-auth-21.0.1\AndroidManifest.xml:29:13-46
+110            android:exported="true"
+110-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Mhd Alaa Bg\.gradle\caches\transforms-2\files-2.1\3d589c9a3a42120be4875d6c7933e94b\jetified-firebase-auth-21.0.1\AndroidManifest.xml:30:13-36
+111            android:launchMode="singleTask"
+111-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Mhd Alaa Bg\.gradle\caches\transforms-2\files-2.1\3d589c9a3a42120be4875d6c7933e94b\jetified-firebase-auth-21.0.1\AndroidManifest.xml:31:13-44
+112            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+112-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Mhd Alaa Bg\.gradle\caches\transforms-2\files-2.1\3d589c9a3a42120be4875d6c7933e94b\jetified-firebase-auth-21.0.1\AndroidManifest.xml:32:13-72
+113            <intent-filter>
+113-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Mhd Alaa Bg\.gradle\caches\transforms-2\files-2.1\3d589c9a3a42120be4875d6c7933e94b\jetified-firebase-auth-21.0.1\AndroidManifest.xml:33:13-43:29
+114                <action android:name="android.intent.action.VIEW" />
+114-->D:\AndroidStudioProjects\2021\ecommerce_app\android\app\src\main\AndroidManifest.xml:53:17-69
+114-->D:\AndroidStudioProjects\2021\ecommerce_app\android\app\src\main\AndroidManifest.xml:53:25-66
+115
+116                <category android:name="android.intent.category.DEFAULT" />
+116-->D:\AndroidStudioProjects\2021\ecommerce_app\android\app\src\main\AndroidManifest.xml:55:17-76
+116-->D:\AndroidStudioProjects\2021\ecommerce_app\android\app\src\main\AndroidManifest.xml:55:27-73
+117                <category android:name="android.intent.category.BROWSABLE" />
+117-->D:\AndroidStudioProjects\2021\ecommerce_app\android\app\src\main\AndroidManifest.xml:56:17-78
+117-->D:\AndroidStudioProjects\2021\ecommerce_app\android\app\src\main\AndroidManifest.xml:56:27-75
+118
+119                <data
+119-->D:\AndroidStudioProjects\2021\ecommerce_app\android\app\src\main\AndroidManifest.xml:58:17-75
+120                    android:host="firebase.auth"
+121                    android:path="/"
+122                    android:scheme="genericidp" />
+122-->D:\AndroidStudioProjects\2021\ecommerce_app\android\app\src\main\AndroidManifest.xml:58:23-72
+123            </intent-filter>
+124        </activity>
+125        <activity
+125-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Mhd Alaa Bg\.gradle\caches\transforms-2\files-2.1\3d589c9a3a42120be4875d6c7933e94b\jetified-firebase-auth-21.0.1\AndroidManifest.xml:45:9-62:20
+126            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+126-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Mhd Alaa Bg\.gradle\caches\transforms-2\files-2.1\3d589c9a3a42120be4875d6c7933e94b\jetified-firebase-auth-21.0.1\AndroidManifest.xml:46:13-79
+127            android:excludeFromRecents="true"
+127-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Mhd Alaa Bg\.gradle\caches\transforms-2\files-2.1\3d589c9a3a42120be4875d6c7933e94b\jetified-firebase-auth-21.0.1\AndroidManifest.xml:47:13-46
+128            android:exported="true"
+128-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Mhd Alaa Bg\.gradle\caches\transforms-2\files-2.1\3d589c9a3a42120be4875d6c7933e94b\jetified-firebase-auth-21.0.1\AndroidManifest.xml:48:13-36
+129            android:launchMode="singleTask"
+129-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Mhd Alaa Bg\.gradle\caches\transforms-2\files-2.1\3d589c9a3a42120be4875d6c7933e94b\jetified-firebase-auth-21.0.1\AndroidManifest.xml:49:13-44
+130            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+130-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Mhd Alaa Bg\.gradle\caches\transforms-2\files-2.1\3d589c9a3a42120be4875d6c7933e94b\jetified-firebase-auth-21.0.1\AndroidManifest.xml:50:13-72
+131            <intent-filter>
+131-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Mhd Alaa Bg\.gradle\caches\transforms-2\files-2.1\3d589c9a3a42120be4875d6c7933e94b\jetified-firebase-auth-21.0.1\AndroidManifest.xml:51:13-61:29
+132                <action android:name="android.intent.action.VIEW" />
+132-->D:\AndroidStudioProjects\2021\ecommerce_app\android\app\src\main\AndroidManifest.xml:53:17-69
+132-->D:\AndroidStudioProjects\2021\ecommerce_app\android\app\src\main\AndroidManifest.xml:53:25-66
+133
+134                <category android:name="android.intent.category.DEFAULT" />
+134-->D:\AndroidStudioProjects\2021\ecommerce_app\android\app\src\main\AndroidManifest.xml:55:17-76
+134-->D:\AndroidStudioProjects\2021\ecommerce_app\android\app\src\main\AndroidManifest.xml:55:27-73
+135                <category android:name="android.intent.category.BROWSABLE" />
+135-->D:\AndroidStudioProjects\2021\ecommerce_app\android\app\src\main\AndroidManifest.xml:56:17-78
+135-->D:\AndroidStudioProjects\2021\ecommerce_app\android\app\src\main\AndroidManifest.xml:56:27-75
+136
+137                <data
+137-->D:\AndroidStudioProjects\2021\ecommerce_app\android\app\src\main\AndroidManifest.xml:58:17-75
+138                    android:host="firebase.auth"
+139                    android:path="/"
+140                    android:scheme="recaptcha" />
+140-->D:\AndroidStudioProjects\2021\ecommerce_app\android\app\src\main\AndroidManifest.xml:58:23-72
+141            </intent-filter>
+142        </activity>
+143
+144        <service
+144-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Mhd Alaa Bg\.gradle\caches\transforms-2\files-2.1\3d589c9a3a42120be4875d6c7933e94b\jetified-firebase-auth-21.0.1\AndroidManifest.xml:64:9-73:19
+145            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+145-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Mhd Alaa Bg\.gradle\caches\transforms-2\files-2.1\3d589c9a3a42120be4875d6c7933e94b\jetified-firebase-auth-21.0.1\AndroidManifest.xml:65:13-101
+146            android:enabled="true"
+146-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Mhd Alaa Bg\.gradle\caches\transforms-2\files-2.1\3d589c9a3a42120be4875d6c7933e94b\jetified-firebase-auth-21.0.1\AndroidManifest.xml:66:13-35
+147            android:exported="false" >
+147-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Mhd Alaa Bg\.gradle\caches\transforms-2\files-2.1\3d589c9a3a42120be4875d6c7933e94b\jetified-firebase-auth-21.0.1\AndroidManifest.xml:67:13-37
+148            <intent-filter>
+148-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Mhd Alaa Bg\.gradle\caches\transforms-2\files-2.1\3d589c9a3a42120be4875d6c7933e94b\jetified-firebase-auth-21.0.1\AndroidManifest.xml:68:13-72:29
+149                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+149-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Mhd Alaa Bg\.gradle\caches\transforms-2\files-2.1\3d589c9a3a42120be4875d6c7933e94b\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:17-89
+149-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Mhd Alaa Bg\.gradle\caches\transforms-2\files-2.1\3d589c9a3a42120be4875d6c7933e94b\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:25-86
+150
+151                <category android:name="android.intent.category.DEFAULT" />
+151-->D:\AndroidStudioProjects\2021\ecommerce_app\android\app\src\main\AndroidManifest.xml:55:17-76
+151-->D:\AndroidStudioProjects\2021\ecommerce_app\android\app\src\main\AndroidManifest.xml:55:27-73
+152            </intent-filter>
+153        </service>
+154
+155        <provider
+155-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Mhd Alaa Bg\.gradle\caches\transforms-2\files-2.1\6c7c33deed907b06309d47ff640a84a7\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+156            android:name="com.google.firebase.provider.FirebaseInitProvider"
+156-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Mhd Alaa Bg\.gradle\caches\transforms-2\files-2.1\6c7c33deed907b06309d47ff640a84a7\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+157            android:authorities="com.mhdalaabg.ecommerce_app.firebaseinitprovider"
+157-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Mhd Alaa Bg\.gradle\caches\transforms-2\files-2.1\6c7c33deed907b06309d47ff640a84a7\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+158            android:directBootAware="true"
+158-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Mhd Alaa Bg\.gradle\caches\transforms-2\files-2.1\6c7c33deed907b06309d47ff640a84a7\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+159            android:exported="false"
+159-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Mhd Alaa Bg\.gradle\caches\transforms-2\files-2.1\6c7c33deed907b06309d47ff640a84a7\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+160            android:initOrder="100" />
+160-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Mhd Alaa Bg\.gradle\caches\transforms-2\files-2.1\6c7c33deed907b06309d47ff640a84a7\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+161
+162        <activity android:name="com.facebook.CustomTabMainActivity" />
+162-->[com.facebook.android:facebook-common:5.5.1] C:\Users\Mhd Alaa Bg\.gradle\caches\transforms-2\files-2.1\19b1708d3c89b9c822bc62d20c2bf546\jetified-facebook-common-5.5.1\AndroidManifest.xml:33:9-71
+162-->[com.facebook.android:facebook-common:5.5.1] C:\Users\Mhd Alaa Bg\.gradle\caches\transforms-2\files-2.1\19b1708d3c89b9c822bc62d20c2bf546\jetified-facebook-common-5.5.1\AndroidManifest.xml:33:19-68
+163        <activity
+163-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Mhd Alaa Bg\.gradle\caches\transforms-2\files-2.1\8303b80655d96f3ffa07a393f4103fa4\jetified-play-services-auth-16.0.1\AndroidManifest.xml:23:9-27:75
+164            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+164-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Mhd Alaa Bg\.gradle\caches\transforms-2\files-2.1\8303b80655d96f3ffa07a393f4103fa4\jetified-play-services-auth-16.0.1\AndroidManifest.xml:24:13-93
+165            android:excludeFromRecents="true"
+165-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Mhd Alaa Bg\.gradle\caches\transforms-2\files-2.1\8303b80655d96f3ffa07a393f4103fa4\jetified-play-services-auth-16.0.1\AndroidManifest.xml:25:13-46
+166            android:exported="false"
+166-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Mhd Alaa Bg\.gradle\caches\transforms-2\files-2.1\8303b80655d96f3ffa07a393f4103fa4\jetified-play-services-auth-16.0.1\AndroidManifest.xml:26:13-37
+167            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+167-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Mhd Alaa Bg\.gradle\caches\transforms-2\files-2.1\8303b80655d96f3ffa07a393f4103fa4\jetified-play-services-auth-16.0.1\AndroidManifest.xml:27:13-72
+168        <!--
+169            Service handling Google Sign-In user revocation. For apps that do not integrate with
+170            Google Sign-In, this service will never be started.
+171        -->
+172        <service
+172-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Mhd Alaa Bg\.gradle\caches\transforms-2\files-2.1\8303b80655d96f3ffa07a393f4103fa4\jetified-play-services-auth-16.0.1\AndroidManifest.xml:33:9-36:110
+173            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+173-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Mhd Alaa Bg\.gradle\caches\transforms-2\files-2.1\8303b80655d96f3ffa07a393f4103fa4\jetified-play-services-auth-16.0.1\AndroidManifest.xml:34:13-89
+174            android:exported="true"
+174-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Mhd Alaa Bg\.gradle\caches\transforms-2\files-2.1\8303b80655d96f3ffa07a393f4103fa4\jetified-play-services-auth-16.0.1\AndroidManifest.xml:35:13-36
+175            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+175-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Mhd Alaa Bg\.gradle\caches\transforms-2\files-2.1\8303b80655d96f3ffa07a393f4103fa4\jetified-play-services-auth-16.0.1\AndroidManifest.xml:36:13-107
+176
+177        <activity
+177-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Mhd Alaa Bg\.gradle\caches\transforms-2\files-2.1\47e543302c7b4d7a3e43f843b352991a\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+178            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+178-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Mhd Alaa Bg\.gradle\caches\transforms-2\files-2.1\47e543302c7b4d7a3e43f843b352991a\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+179            android:exported="false"
+179-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Mhd Alaa Bg\.gradle\caches\transforms-2\files-2.1\47e543302c7b4d7a3e43f843b352991a\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+180            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+180-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Mhd Alaa Bg\.gradle\caches\transforms-2\files-2.1\47e543302c7b4d7a3e43f843b352991a\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+181
+182        <meta-data
+182-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\Mhd Alaa Bg\.gradle\caches\transforms-2\files-2.1\bd44bc8cdd314ad0f3be9f6c104dffe5\jetified-play-services-basement-17.1.0\AndroidManifest.xml:23:9-25:69
+183            android:name="com.google.android.gms.version"
+183-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\Mhd Alaa Bg\.gradle\caches\transforms-2\files-2.1\bd44bc8cdd314ad0f3be9f6c104dffe5\jetified-play-services-basement-17.1.0\AndroidManifest.xml:24:13-58
+184            android:value="@integer/google_play_services_version" />
+184-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\Mhd Alaa Bg\.gradle\caches\transforms-2\files-2.1\bd44bc8cdd314ad0f3be9f6c104dffe5\jetified-play-services-basement-17.1.0\AndroidManifest.xml:25:13-66
+185        <!--
+186         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+187         with the application context. This config is merged in with the host app's manifest,
+188         but there can only be one provider with the same authority activated at any given
+189         point; so if the end user has two or more different apps that use Facebook SDK, only the
+190         first one will be able to use the provider. To work around this problem, we use the
+191         following placeholder in the authority to identify each host application as if it was
+192         a completely different provider.
+193        -->
+194        <provider
+194-->[com.facebook.android:facebook-core:5.5.1] C:\Users\Mhd Alaa Bg\.gradle\caches\transforms-2\files-2.1\037824b504221f27314991327660813a\jetified-facebook-core-5.5.1\AndroidManifest.xml:39:9-42:40
+195            android:name="com.facebook.internal.FacebookInitProvider"
+195-->[com.facebook.android:facebook-core:5.5.1] C:\Users\Mhd Alaa Bg\.gradle\caches\transforms-2\files-2.1\037824b504221f27314991327660813a\jetified-facebook-core-5.5.1\AndroidManifest.xml:40:13-70
+196            android:authorities="com.mhdalaabg.ecommerce_app.FacebookInitProvider"
+196-->[com.facebook.android:facebook-core:5.5.1] C:\Users\Mhd Alaa Bg\.gradle\caches\transforms-2\files-2.1\037824b504221f27314991327660813a\jetified-facebook-core-5.5.1\AndroidManifest.xml:41:13-72
+197            android:exported="false" />
+197-->[com.facebook.android:facebook-core:5.5.1] C:\Users\Mhd Alaa Bg\.gradle\caches\transforms-2\files-2.1\037824b504221f27314991327660813a\jetified-facebook-core-5.5.1\AndroidManifest.xml:42:13-37
+198
+199        <receiver
+199-->[com.facebook.android:facebook-core:5.5.1] C:\Users\Mhd Alaa Bg\.gradle\caches\transforms-2\files-2.1\037824b504221f27314991327660813a\jetified-facebook-core-5.5.1\AndroidManifest.xml:44:9-50:20
+200            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+200-->[com.facebook.android:facebook-core:5.5.1] C:\Users\Mhd Alaa Bg\.gradle\caches\transforms-2\files-2.1\037824b504221f27314991327660813a\jetified-facebook-core-5.5.1\AndroidManifest.xml:45:13-86
+201            android:exported="false" >
+201-->[com.facebook.android:facebook-core:5.5.1] C:\Users\Mhd Alaa Bg\.gradle\caches\transforms-2\files-2.1\037824b504221f27314991327660813a\jetified-facebook-core-5.5.1\AndroidManifest.xml:46:13-37
+202            <intent-filter>
+202-->[com.facebook.android:facebook-core:5.5.1] C:\Users\Mhd Alaa Bg\.gradle\caches\transforms-2\files-2.1\037824b504221f27314991327660813a\jetified-facebook-core-5.5.1\AndroidManifest.xml:47:13-49:29
+203                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+203-->[com.facebook.android:facebook-core:5.5.1] C:\Users\Mhd Alaa Bg\.gradle\caches\transforms-2\files-2.1\037824b504221f27314991327660813a\jetified-facebook-core-5.5.1\AndroidManifest.xml:48:17-95
+203-->[com.facebook.android:facebook-core:5.5.1] C:\Users\Mhd Alaa Bg\.gradle\caches\transforms-2\files-2.1\037824b504221f27314991327660813a\jetified-facebook-core-5.5.1\AndroidManifest.xml:48:25-92
+204            </intent-filter>
+205        </receiver>
+206        <receiver
+206-->[com.facebook.android:facebook-core:5.5.1] C:\Users\Mhd Alaa Bg\.gradle\caches\transforms-2\files-2.1\037824b504221f27314991327660813a\jetified-facebook-core-5.5.1\AndroidManifest.xml:51:9-58:20
+207            android:name="com.facebook.CampaignTrackingReceiver"
+207-->[com.facebook.android:facebook-core:5.5.1] C:\Users\Mhd Alaa Bg\.gradle\caches\transforms-2\files-2.1\037824b504221f27314991327660813a\jetified-facebook-core-5.5.1\AndroidManifest.xml:52:13-65
+208            android:exported="true"
+208-->[com.facebook.android:facebook-core:5.5.1] C:\Users\Mhd Alaa Bg\.gradle\caches\transforms-2\files-2.1\037824b504221f27314991327660813a\jetified-facebook-core-5.5.1\AndroidManifest.xml:53:13-36
+209            android:permission="android.permission.INSTALL_PACKAGES" >
+209-->[com.facebook.android:facebook-core:5.5.1] C:\Users\Mhd Alaa Bg\.gradle\caches\transforms-2\files-2.1\037824b504221f27314991327660813a\jetified-facebook-core-5.5.1\AndroidManifest.xml:54:13-69
+210            <intent-filter>
+210-->[com.facebook.android:facebook-core:5.5.1] C:\Users\Mhd Alaa Bg\.gradle\caches\transforms-2\files-2.1\037824b504221f27314991327660813a\jetified-facebook-core-5.5.1\AndroidManifest.xml:55:13-57:29
+211                <action android:name="com.android.vending.INSTALL_REFERRER" />
+211-->[com.facebook.android:facebook-core:5.5.1] C:\Users\Mhd Alaa Bg\.gradle\caches\transforms-2\files-2.1\037824b504221f27314991327660813a\jetified-facebook-core-5.5.1\AndroidManifest.xml:56:17-79
+211-->[com.facebook.android:facebook-core:5.5.1] C:\Users\Mhd Alaa Bg\.gradle\caches\transforms-2\files-2.1\037824b504221f27314991327660813a\jetified-facebook-core-5.5.1\AndroidManifest.xml:56:25-76
+212            </intent-filter>
+213        </receiver>
+214    </application>
+215
+216</manifest>

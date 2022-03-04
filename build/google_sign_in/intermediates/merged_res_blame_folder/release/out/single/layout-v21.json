@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\AndroidStudioProjects\\2021\\ecommerce_app\\build\\google_sign_in\\intermediates\\res\\merged\\release\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\Mhd Alaa Bg\\.gradle\\caches\\transforms-2\\files-2.1\\1c5865eddf24f64be9c18999845b1304\\core-1.1.0\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\2021\\ecommerce_app\\build\\google_sign_in\\intermediates\\res\\merged\\release\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\Mhd Alaa Bg\\.gradle\\caches\\transforms-2\\files-2.1\\1c5865eddf24f64be9c18999845b1304\\core-1.1.0\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\2021\\ecommerce_app\\build\\google_sign_in\\intermediates\\res\\merged\\release\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\Mhd Alaa Bg\\.gradle\\caches\\transforms-2\\files-2.1\\1c5865eddf24f64be9c18999845b1304\\core-1.1.0\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\2021\\ecommerce_app\\build\\google_sign_in\\intermediates\\res\\merged\\release\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\Mhd Alaa Bg\\.gradle\\caches\\transforms-2\\files-2.1\\1c5865eddf24f64be9c18999845b1304\\core-1.1.0\\res\\layout-v21\\notification_template_icon_group.xml"
+    }
+]

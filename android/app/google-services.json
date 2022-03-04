@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "692773657840",
+    "project_id": "ecommerce-87433",
+    "storage_bucket": "ecommerce-87433.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:692773657840:android:ecc29bbd890234b983f635",
+        "android_client_info": {
+          "package_name": "com.mhdalaabg.ecommerce_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "692773657840-0d8afgju02cosimtt7j4ikaa5tcdus5n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mhdalaabg.ecommerce_app",
+            "certificate_hash": "b16338b208b05f0da94f38bfe4e5e5423b2c431d"
+          }
+        },
+        {
+          "client_id": "692773657840-7d8q5mjjprmpe47puvl3faav9d9u3jjo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mhdalaabg.ecommerce_app",
+            "certificate_hash": "0b30c2c41c602a575be97d7ebb93dae2f3b331ff"
+          }
+        },
+        {
+          "client_id": "692773657840-difuvqpia9mvjkfri1759f5v5ekbt31t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTEsxJ_QLT3XzEZn7LuMELG63TBLf7CeY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "692773657840-difuvqpia9mvjkfri1759f5v5ekbt31t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
